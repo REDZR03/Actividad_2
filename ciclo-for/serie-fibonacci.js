@@ -1,17 +1,12 @@
-let fibo = [];
+let fibo= [];
 let a = 0;
 let b = 1;
-let c = 1;
 
-fibo.push(a); // Agregar 0
-fibo.push(b); // Agregar 1
-
-for (let i = 2; i < 10; i++) {
-  fibo.push(c); // Agregar el siguiente número de Fibonacci
-  let temp = c;
-  c = a + b + c; // Sumar los tres números anteriores para obtener el siguiente número de la secuencia
+for (let i = 0; i < 10; i++) {
+  fibo.push(a);
+  let temp = a;
   a = b;
-  b = temp;
+  b = temp + b;
 }
 
-console.log(fibo);
+console.log(fibo); // [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
