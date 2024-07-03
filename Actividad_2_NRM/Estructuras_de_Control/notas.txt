@@ -1,0 +1,5 @@
+Una Estructura de control nos permite manejar y terner mas control sobre nuestro codigo y de este modo aplicar 
+una estructura correcta en funcion a ciertas condiciones.
+
+BIFURCACIONES 
+Nos permiten ir por un camino o otro, si se cumple una condicion toma un camino si no otro
